@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heh paint</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <canvas id="canvas" data-w="700" data-h="700"></canvas>
+    <div class="range">
+        <input id="range" type="range" step="0.2" min="0.2" max="10" value="1">
+    </div>
+    <div class="picker">
+        <input id="picker" type="color" value="#000000">
+    </div>
+    <div class="colors">
+        <button class="colors__button black active" data-color="black"></button>
+        <button class="colors__button white" data-color="white"></button>
+        <button class="colors__button red" data-color="red"></button>
+        <button class="colors__button orange" data-color="orange"></button>
+        <button class="colors__button yellow" data-color="yellow"></button>
+        <button class="colors__button green" data-color="green"></button>
+        <button class="colors__button light-blue" data-color="lightskyblue"></button>
+        <button class="colors__button dark-blue" data-color="darkblue"></button>
+        <button class="colors__button purple" data-color="purple"></button>
+    </div>
+    <div class="controls">
+        <button id="mode">Рисование</button>
+        <button id="save">Сохранить</button>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: beige;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#canvas {
+    width: 700px;
+    height: 700px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px grey;
+}
+
+.colors {
+    padding-top: 20px;
+}
+
+.colors__button {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 20px grey;
+    border: 3px solid gray;
+}
+
+.active {
+    box-shadow: 0 0 10px black;
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.light-blue {
+    background-color: lightskyblue;
+}
+
+.dark-blue {
+    background-color: darkblue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.controls {
+    padding-top: 20px;
+}
+
+.controls button {
+    all: unset;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: white;
+    box-shadow: 0 0 20px grey;
+    border-radius: 10px;
+    border: 3px solid gray;
+    width: 100px;
+    transition: all .22s;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    color: gray;
+}
+
+.controls button:hover {
+    box-shadow: 0 0 20px black;
+}
+
+.controls button:active {
+    transform: scale(0.95);
+}
+
+.range {
+    padding-top: 20px;
+}
+
+.range input {
+    width: 300px;
+}
