@@ -9,7 +9,6 @@ const picker = document.getElementById('picker')
 let painting = false
 let filling = false
 
-
 ctx.fillStyle = "white"
 ctx.fillRect(0, 0, canvas.dataset.w, canvas.dataset.h)
 ctx.lineWidth = range.value
