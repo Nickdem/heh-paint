@@ -2,38 +2,29 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>heh paint</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>heh paint</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <canvas id="canvas" data-w="700" data-h="700"></canvas>
-    <div class="range">
-        <input id="range" type="range" step="0.2" min="0.2" max="10" value="1">
-    </div>
-    <div class="picker">
-        <input id="picker" type="color" value="#000000">
-    </div>
-    <div class="colors" id="colors"></div>
-    <div class="controls">
-        <button id="mode">Рисование</button>
-        <button id="save">Сохранить</button>
-    </div>
-    <select id="figure">
-        <option value="base">Фигуры</option>
-        <option value="square">Квадрат</option>
-        <option value="squareOutline">Квадрат-контур</option>
-        <option value="triangle">Треугольник</option>
-        <option value="triangleOutline">Треугольник-контур</option>
-        <option value="circle">Круг</option>
-        <option value="circleOutline">Круг-контур</option>
-        <option value="line">Контур</option>
-    </select>
-    <script type="module" src="./app.js"></script>
+  <canvas id="canvas" data-w="700" data-h="700"></canvas>
+  <div class="range">
+    <input id="range" type="range" step="0.2" min="0.2" max="10" value="1">
+  </div>
+  <div class="picker">
+    <input id="picker" type="color" value="#000000">
+  </div>
+  <div class="colors" id="colors"></div>
+  <div class="controls">
+    <button id="mode">Рисование</button>
+    <button id="save">Сохранить</button>
+  </div>
+  <select id="figure"></select>
+  <script type="module" src="./app.js"></script>
 </body>
 
 </html>
